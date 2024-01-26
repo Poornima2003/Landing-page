@@ -1,0 +1,307 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+    scroll-behavior: smooth;
+}
+header{
+    background-color:#fff;
+    color: blue;
+    height: 90px;
+   padding: 10px;
+   font-weight: bold;
+   position: sticky;
+   top: 0;
+   
+
+}
+nav ul{
+  display: flex;
+  justify-content: space-around;
+  
+}
+nav ul li{
+    list-style: none;
+    margin: 0 23px;
+    
+}
+nav a{
+    text-decoration: none;
+    color: black;
+
+}
+nav a:hover{
+    color: #d6cfcf;
+}
+.dropdown{
+    display: none;
+    background-color: #fff;
+    width: 170px;
+    position: absolute;
+    box-shadow: 2px 2px 5px rgb(145, 139, 139);
+}
+.dropdown ul{
+    display: block;
+}
+.dropdown a{
+    display: block;
+    padding: 10px 15px;
+}
+
+.middle .id1:hover .dropdown {
+    display : block;
+}
+.middle .id2:hover .dropdown{
+    display: block;
+}
+.middle .id3:hover .dropdown{
+    display: block;
+}
+.container .id5:hover .dropdown{
+    display: block;
+}
+
+
+nav{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+   
+}
+.left{
+    font-size: 2rem;
+}
+.middle{
+    font-size: 1.1rem;
+    color: black;
+}
+.right{
+   display: flex;
+   gap: 20px;color: black;
+
+   
+}
+.first-section img{
+  width: 1519px ;
+  height:760px;
+}
+.text{
+   position: absolute;
+    bottom: 200px;
+    left: 30px;
+    color: #fff; 
+}
+.text h1{
+    font-family: "sora", sans-serif;
+    font-weight: 700;
+    font-size: 4.5rem
+    
+}
+
+.text p{
+    font-size: 1.3rem;
+    
+}
+.second-section{
+    
+    margin: auto;
+    padding: 50px;
+    
+}
+.container{
+    max-width: 80vw;
+    display: flex;
+    justify-content: space-around;
+    font-weight: bold;
+    font-size: 1.3rem;
+}
+.container a{
+    text-decoration: none;
+    color: black;
+}
+.product{
+   display: flex;
+   justify-content: center;
+  background-color:blue;
+  padding-bottom: 30px;
+
+}
+.pro{
+    width: 337.8px;
+    height: 400px;
+    background-color:#fff;
+    color: black;
+    display: inline-block;
+    padding: 10px;
+    padding-top: 90px;
+    font-weight: bold;
+    
+    
+}
+.pro img{
+    width: 331px;
+    height: 331px;
+  
+}
+.black {
+    color: rgb(41, 40, 40);
+}
+.blue{
+    color: blue;
+}
+.third-section{
+    margin: auto;
+    padding: 50px;
+}
+#element{
+    font-family: "sora", sans-serif;
+    font-weight: 700;
+    font-size: 4.5rem
+}
+footer{
+    max-width: 80vw;
+    margin: auto;
+    height: 100px;
+   
+   
+}
+footer h3{
+  display: flex;
+  justify-content: center;
+}
+.footer-info{
+    display: flex;
+    justify-content: space-around;
+    padding: 30px;
+    margin: 20px;
+   justify-content: center;
+
+}
+footer ul  li{
+    list-style: none;
+    margin: 0 60px;
+}
+
+.container2{
+    display: inline-block;
+    justify-content: space-around;
+    justify-content: center;
+}
+.fourth-section{
+    margin: auto;
+    padding: 50px;
+    
+
+}
+.info1{
+    display: inline-block;
+    justify-content: space-around;
+    justify-content: center;
+}
+
+.fourth-section img{
+    width: 699.6px;
+    height: 392.78px;
+}
+.fourth-section p img{
+    width:40px ;
+    height:40px ;
+}
+.box1{
+    position: absolute;
+    width: 380px;
+    left: 800px;
+   margin-top: -290px;
+  padding: 20px;
+   
+}
+.info2{
+    padding: 30px;
+    display: inline-block;
+    justify-content: space-around;
+}
+.box2{
+    width: 380px;
+
+}
+.speak{
+    position: absolute;
+    
+    left: 700px;
+   margin-top: -290px;
+  padding: 20px;
+}
+.fiv{
+    margin: auto;
+    padding: 50px; 
+}
+.fiv img{
+    width: 699.6px;
+    height: 392.78px;
+}
+.fiv p img{
+    width:40px ;
+    height:40px ;
+}
+.six{
+    margin: auto;
+    padding: 50px; 
+    
+}
+.six img{
+    width: 699.6px;
+    height: 392.78px;
+    margin-top: 70px;
+}
+.six p img{
+    width:40px ;
+    height:40px ;
+
+}
+.box3{
+    position: absolute;
+    width: 380px;
+    left: 860px;
+   margin-top: -390px;
+  padding: 20px;
+}
+.info3{
+    padding: 30px;
+    display: inline-block;
+    justify-content: space-around;
+    justify-content: center;
+}
+
+dt{
+    font-weight: bold;
+}
+.bold{
+    font-weight: bold;
+}
+.about{
+    width: 200px;
+    margin-right: 10px;
+}
+.company{
+    margin-right: 20px;
+}
+.social{
+    max-width: 80vw;
+    margin: auto;
+    height: 80px;
+   display: flex;
+   justify-content:space-between; 
+   align-items: flex-start;
+   margin-right: 10px;
+ 
+   
+}
+.social i{
+    font-size: 24px;
+}
+.copyright{
+    max-width: 80vw;
+    margin: auto;
+    height: 80px;
+}
